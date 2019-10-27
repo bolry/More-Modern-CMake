@@ -13,7 +13,7 @@ add_library( Reviewed_Boost.outcome INTERFACE
 # Store include search-path containing headers
 # of "Boost.Outcome".
 target_include_directories( Reviewed_Boost.outcome SYSTEM
-    INTERFACE /opt/boost-outcome/include )
+    INTERFACE /home/bo/Repos/contrib/vcpkg.git/installed/x64-linux/include )
 # Require at least compiling with C++14.
 target_compile_features( Reviewed_Boost.outcome
     INTERFACE cxx_std_14 )

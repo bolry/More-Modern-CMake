@@ -1,6 +1,6 @@
 # ./external/boost/CMakeLists.txt -- Traditional CMake
 
-set( BOOST_VERSION 1.58.1 )
+set( BOOST_VERSION 1.71.0 )
 
 # Settings for finding correct Boost libraries.
 set( Boost_USE_STATIC_LIBS      FALSE )

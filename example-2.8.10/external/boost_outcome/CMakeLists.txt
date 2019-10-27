@@ -12,7 +12,7 @@ add_library( Boost::outcome UNKNOWN
 # Store include search-path containing headers
 # of "Boost.Outcome".
 set_target_properties( Boost::outcome PROPERTIES
-    MY_INCLUDE_DIRS /opt/boost-outcome/include )
+    MY_INCLUDE_DIRS /home/bo/Repos/contrib/vcpkg.git/installed/x64-linux/include )
 # Require at least compiling with C++14.
 set_target_properties( Boost::outcome PROPERTIES
     MY_COMPILE_FEATURES "-std=c++14" )
